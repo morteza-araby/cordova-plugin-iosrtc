@@ -2534,7 +2534,7 @@ function registerGlobals() {
 	window.MediaStream                      = MediaStream;
 	window.webkitMediaStream                = MediaStream;
 	window.MediaStreamTrack                 = MediaStreamTrack;
-	window.webrtcDetectedDCSupport			= "RTP";
+	window.webrtcDetectedDCSupport			= "SCTP";
 }
 
 
